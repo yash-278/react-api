@@ -56,7 +56,7 @@ export default function App() {
           })}
         </Select>
       </div>
-      <Card className="w-full bg-gray-700 text-white my-5">
+      <Card className="w-full bg-gray-700 max-w-[300px] mx-auto text-white my-5">
         <CardHeader floated={false}>
           <img src={selectedCountry.flags ? selectedCountry.flags.png : ""} alt="flag" />
         </CardHeader>

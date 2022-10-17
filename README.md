@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Interview Project for Front End - React JS Framework Developer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Create a private git repo and implement the following project.
 
-## Available Scripts
+## Goal
 
-In the project directory, you can run:
+### Coding
 
-### `npm start`
+1. Create a react application
+2. Integrate the react application with the following apis
+   https://restcountries.com/#api-endpoints-v3
+3. Front End of React Application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+a) Application should launch with a select box.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+b) Drop down of select box should be filled with the list of countries from the API called at step 2
 
-### `npm test`
+c) On select of a particular country application should display the following details of the selected country
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Language of the country
+- Capital city of the country
+- Currency of the country
 
-### `npm run build`
+### Deliverables (pushed to private repo)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_**include this README and check if completed or explain why it isn't done**_
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [✅] Source code
+- [✅] Development setup instructions including commands for running lint and tests with coverage
+  <br>_example template_
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  > ### Development Setup
+  >
+  > ```
+  > 1. git clone https://github.com/yash-278/react-api
+  > ```
 
-### `npm run eject`
+- [✅] GitHub Action run in your private repo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Selection Criteria
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Make sure that checklist above is complete
+2. In case any point on the checklist is failed to be accomplished please provide all attempt information and reason for failure in details
+3. Incomplete submissions without proper explanation or documentation will be rejected
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Code Evaluation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Provide `lakshmi-bg` with **read** access to your repository.
 
-## Learn More
+## Interview Demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+An interviewee will demonstrate the project in action and perform certain operations as requested. Questions will be asked about your different coding choices in the project and on any part of the repository.
